@@ -1,0 +1,48 @@
+body {
+    background: darksalmon;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    margin-top: 15em;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  .fill {
+    background-image: url('./drag.png');
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+  }
+  
+  .hold {
+    border: solid 5px #ccc;
+  }
+  
+  .empty {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: solid 3px salmon;
+    background: white;
+  }
+  .para{
+    color: black;
+    font-weight: bold;
+    display: flex;
+    font-size: 1rem;
+    margin-top: 13em;
+    align-items: baseline;
+    justify-content: flex-end;
+  }
+  .hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+  }
+  
